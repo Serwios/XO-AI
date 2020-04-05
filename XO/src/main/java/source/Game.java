@@ -1,68 +1,37 @@
-/*JUST FOR 3x3 */
-
 package source;
 
 import java.util.*;
 
 public class Game {
     public static void main(String[] args) {
-      System.out.println("Write a size of field");
+        System.out.println("Write a size of field [x][y]");
 
-      Scanner size_1 = new Scanner(System.in);
-      Scanner size_2 = new Scanner(System.in);
+        Scanner enter_row = new Scanner(System.in);
+        Scanner enter_column = new Scanner(System.in);
 
-      int size_row = size_1.nextInt();
-      int size_column = size_2.nextInt();
+        int size_row = enter_row.nextInt();
+        int size_column = enter_column.nextInt();
 
-      Field new_field = new Field(size_row, size_column);
-      new_field.cnt_Field();
-      new_field.dsb_Field();
+        Field new_field = new Field(size_row, size_column);
+        new_field.cnt_Field();
+        new_field.sim_Field();
 
-      System.out.println("");
-      System.out.println("Where you want to make changes?");
-    }
-}
+        System.out.println();
 
-class Field{
+        while (true) {
 
-    public int row, col;
-    public char [][] field;
+            System.out.println("Where you want to make changes?");
 
-    Field(int length_row, int length_column){
+            Scanner position_row = new Scanner(System.in);
+            Scanner position_col = new Scanner(System.in);
+            int box_col = position_row.nextInt();
+            int box_row = position_col.nextInt();
 
-        this.row=length_row;
-        this.col=length_column;
+            new_field.dsb_Field(box_col, box_row);
+            System.out.println("My turn");
+            new_field.sim_Field();
+            new_field.Detektor();
 
-        field= new char[length_row][length_column];
-    }
-
-
-    void cnt_Field(){
-        int i, j;
-
-        for (i=0;i<row;i++){
-             for (j=0;j<col;j++){
-
-                 field[i][j]='W';
-
-             }
-         }
-
-    }
-
-    void dsb_Field(){
-        int i, j;
-
-        for (i=0;i<row;i++){
-
-            for (j=0;j<col;j++){
-
-                System.out.print(" ");
-                System.out.print(field[i][j]);
-
-            }
-            System.out.println(" ");
         }
-
     }
 }

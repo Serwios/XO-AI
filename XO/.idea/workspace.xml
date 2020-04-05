@@ -24,8 +24,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Game">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="source.Game" />
       <module name="XO" />
@@ -39,9 +44,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LUDA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="source.LUDA" />
+      <module name="XO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yyy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sub.yyy" />
+      <module name="XO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Game" />
+        <item itemvalue="Application.yyy" />
+        <item itemvalue="Application.LUDA" />
       </list>
     </recent_temporary>
   </component>
@@ -56,6 +89,16 @@
       <option name="presentableId" value="Default" />
       <updated>1585527572783</updated>
       <workItem from="1585527577198" duration="2714000" />
+      <workItem from="1585530938046" duration="837000" />
+      <workItem from="1585696921192" duration="39000" />
+      <workItem from="1585700770046" duration="1102000" />
+      <workItem from="1585735238079" duration="2442000" />
+      <workItem from="1585849090914" duration="1065000" />
+      <workItem from="1585991712300" duration="2686000" />
+      <workItem from="1586019267031" duration="1147000" />
+      <workItem from="1586080491712" duration="32000" />
+      <workItem from="1586088724248" duration="823000" />
+      <workItem from="1586090043097" duration="6232000" />
     </task>
     <servers />
   </component>
@@ -63,21 +106,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1214" height="295" key="GridCell.Tab.0.bottom" timestamp="1585530295331">
+    <state x="552" y="198" key="#Project_Structure" timestamp="1586019562095">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1214" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585530295331" />
-    <state width="1214" height="295" key="GridCell.Tab.0.center" timestamp="1585530295331">
+    <state x="552" y="198" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1586019562095" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1586093182397">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1214" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585530295331" />
-    <state width="1214" height="295" key="GridCell.Tab.0.left" timestamp="1585530295331">
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586093182397" />
+    <state width="1214" height="297" key="GridCell.Tab.0.bottom" timestamp="1586097553952">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1214" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585530295331" />
-    <state width="1214" height="295" key="GridCell.Tab.0.right" timestamp="1585530295331">
+    <state width="1214" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586097553952" />
+    <state width="1214" height="297" key="GridCell.Tab.0.center" timestamp="1586097553952">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1214" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585530295331" />
+    <state width="1214" height="297" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586097553952" />
+    <state width="1214" height="297" key="GridCell.Tab.0.left" timestamp="1586097553952">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1214" height="297" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586097553952" />
+    <state width="1214" height="297" key="GridCell.Tab.0.right" timestamp="1586097553952">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1214" height="297" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586097553952" />
+    <state x="776" y="318" key="chooseDestDirectoryDialog" timestamp="1586019622097">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="776" y="318" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586019622097" />
+    <state x="557" y="557" key="com.intellij.ide.util.TipDialog" timestamp="1586090043478">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="557" y="557" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586090043478" />
+    <state x="342" y="235" key="new project wizard" timestamp="1586090072278">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="342" y="235" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1586090072278" />
   </component>
 </project>
