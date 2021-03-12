@@ -19,7 +19,6 @@ public class Game {
         System.out.println();
 
         while (true) {
-
             System.out.println("Where you want to make changes?");
 
             Scanner position_row = new Scanner(System.in);
